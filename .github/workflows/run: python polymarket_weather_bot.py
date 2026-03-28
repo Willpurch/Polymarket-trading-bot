@@ -20,4 +20,6 @@ jobs:
         run: pip install requests termcolor
 
       - name: Run Weather Bot
-        run: python moon_dev_weather_bot.py
+        # This MUST match the name of your file on GitHub exactly.
+        # If your file does not have .py at the end, remove it here too.
+        run: python "polymarket weather bot.py"
